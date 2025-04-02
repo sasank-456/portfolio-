@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE 2</title>
+    <link rel="stylesheet" href="style12.css">
+    <script src="https://kit.fontawesome.com/eb5ee7137b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id ="header">
+          <div class="container">
+            <nav>
+                <img src="images/1.png " class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICE</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                 <p>Front-end Developer</p>
+                 <h1>Hi, I'm  <span>Dhana Sasank </span> <br> </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------about ------------>
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                 <div class="about-col-1">
+                    <img src="images/download.jpeg">
+                 </div>
+                 <div class="about-col-2">
+
+                    <h1 class="sub-title">About Me</h1>
+                    <p> G Dhana Sasank is a motivated and ambitious individual with a strong interest in software development.
+                        With a background in HTML and CSS, I have developed a solid foundation in coding, problem-solving, communication.
+                       I am a fast learner who thrives in collaborative environments, eager to contribute my skills and grow professionally.
+                        My dedication to continuous learning and improvement drives me to stay updated with industry trends and best practices.
+                    </p>
+
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        
+                        <p class="tab-links" onclick="opentab('Education')">Education </p>
+                    </div>
+                    <div class="tab-contants active-tab" id="skills">
+                        <ul>
+                             
+                            <li><span>web Development</span><br>Web app Development</li>
+                            <li><span>Programing Language</span><br>C/C++/Java/Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contants" id="Education">
+                        <ul>
+                            <li><span>2021-2023</span><br>Intermediate</li>
+                            <li><span>2023-2027</span><br>Btech Computer Science and Engneering</li>
+                             
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------services------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Service</h1>
+            <div class="servicelist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p class="para">As a web designer, I focus on creating visually appealing and user-friendly websites.
+                     I prioritize understanding the client’s goals and target audience, ensuring responsive and intuitive design. By using HTML, CSS, and JavaScript, I bring clean, modern designs to life.
+                     I iterate through wireframes and mockups to ensure functionality and alignment with brand identity. My aim is to deliver websites that engage users and meet business objectives effectively.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Programming Language</h2>
+                    <p class ="para">As a programmer, I focus on writing efficient and maintainable code in languages like C, C++, Java, and Python.
+                     I prioritize understanding problem requirements and selecting the best-suited language for the task. 
+                     Through structured algorithms and clean coding practices, I develop solutions that are both effective and optimized.
+                     I continuously improve my skills by working on real-world projects and staying up-to-date with language advancements.
+                     My goal is to write reliable, scalable code that meets both technical and business needs.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------ my work -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <Div class="work">
+                    <img src="images/download1.jpeg">
+                    <div class="layer">
+                        <h3>website Pages</h3>
+                        <p>This website contains the portfolio</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </Div>
+                <Div class="work">
+                    <img src="images/download2.jpeg">
+                    <div class="layer">
+                        <h3>Python language</h3>
+                        <p>This is a app done by Python Programming language </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </Div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+
+    <!-----------content-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                  <h1 class="subtitle">Contact Me</h1>
+                  <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                  <p><i class="fa-solid fa-phone"></i>phone number</p>
+                  <div class="socialmedia">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <p>Instagram</p>
+                  </div>
+                  <a href="images/resume3.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright @ sasank .Made with  <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+   
+
+
+
+
+  <script>
+
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontants=document.getElementsByClassName("tab-contants");
+      function opentab(tabname){
+           for(tablink of tablinks)
+           {
+            tablink.classList.remove("active-link");
+           }
+           for(tabcontant of tabcontants)
+           {
+            tabcontant.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+
+           document.getElementById(tabname).classList.add("active-tab");
+      }
+
+  </script>  
+</body>
+</html>
